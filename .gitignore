@@ -1,0 +1,14 @@
+# Python / PyTorch artefacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+# macOS artefacts
+.DS_Store
+# Model checkpoint (often > 100 MB)
+weights/*.pkl
+# Data that may be large or private
+input/
+output/
